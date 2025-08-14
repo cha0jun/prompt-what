@@ -32,9 +32,8 @@ export default function RootLayout({
             attribute="class"
             defaultTheme="system"
             enableSystem
-            disableTransitionOnChange
-      >
-        {children}
+            disableTransitionOnChange>
+        <main>{children}</main>
         </ThemeProvider>
       </body>
     </html>

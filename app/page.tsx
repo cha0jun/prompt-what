@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Home from "./home/page";
 
-export default function Home() {
+export default function firstload() {
   return (
-  <h1>Peer rated prompts proven to work.</h1>
+  <Home></Home>
   );
 }
